@@ -1,0 +1,188 @@
+.color-O{
+color:blue
+}
+.color-X{
+color:violet
+}
+
+@media screen and (min-width: 100px) {
+  .tictac {
+    background-color: yellow;
+    height: 100vh;
+    /* color: violet;
+    color: purple; */
+  }
+  .reset-game {
+    margin-left: 80px;
+    margin-bottom: 50px;
+  }
+  .score-board {
+    width: 100%;
+    padding-left: 30px;
+    padding-top: 30px;
+  }
+  .ticbutton {
+    width: 90px;
+    height: 70px;
+    background-color: unset;
+    border: unset;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .ticbutton:hover {
+    background-color: rgba(49, 49, 47, 0.151);
+  }
+  .vertical__line-right {
+    background-color: red;
+    padding: 5px;
+    width: 2px;
+    height: 275px;
+    border-radius: 10px;
+    position: absolute;
+    top: 240px;
+    left: 217px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+  }
+  .vertical__line-left {
+    background-color: red;
+    padding: 5px;
+    width: 2px;
+    height: 275px;
+    border-radius: 10px;
+    position: absolute;
+    top: 240px;
+    left: 111px;
+  }
+  .horizontal-line-top {
+    background-color: red;
+    padding: 5px;
+    width: 315px;
+    border-radius: 10px;
+  }
+  .horizontal-line-bottom {
+    background-color: red;
+    padding: 5px;
+    width: 315px;
+    border-radius: 10px;
+  }
+}
+@media screen and (min-width: 576px) {
+  .reset-game {
+    margin-left: 120px;
+    margin-bottom: 50px;
+  }
+  .score-board {
+    width: 100%;
+    margin-left: 100px;
+  }
+  .tictac {
+    background-color: yellow;
+    height: 200vh;
+    /* padding-bottom: 30px; */
+    /* color: violet;
+    color: purple; */
+  }
+
+  .ticbutton {
+    width: 95px;
+    height: 110px;
+    background-color: unset;
+    border: unset;
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  .ticbutton:hover {
+    background-color: rgba(49, 49, 47, 0.151);
+  }
+  .vertical__line-left {
+    background-color: red;
+    padding: 5px;
+    width: 2px;
+    height: 400px;
+    border-radius: 10px;
+    position: absolute;
+    top: 220px;
+    left: 572px;
+  }
+  .vertical__line-right {
+    background-color: red;
+    padding: 5px;
+    width: 2px;
+    height: 400px;
+    border-radius: 10px;
+    position: absolute;
+    top: 220px;
+    left: 698px;
+  }
+  .horizontal-line-bottom {
+    background-color: red;
+    padding: 5px;
+    width: 340px;
+    border-radius: 10px;
+  }
+  .horizontal-line-top {
+    background-color: red;
+    padding: 5px;
+    width: 340px;
+    border-radius: 10px;
+  }
+}
+@media screen and (min-width: 768px) {
+}
+@media screen and (min-width: 992px) {
+      .reset-game {
+    margin-left: 120px;
+    margin-bottom: 50px;
+  }
+  .score-board {
+    width: 100%;
+    padding-left: 0px;
+    padding-top: 30px;
+    margin-left: 50px;
+  }
+  .tictac {
+    background-color: yellow;
+    height: 105vh;
+    /* color: violet;
+    color: purple; */
+  }
+
+  .ticbutton {
+    width: 95px;
+    height: 110px;
+    /* background-color: blue; */
+    border: unset;
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  .ticbutton:hover {
+    background-color: rgba(49, 49, 47, 0.151);
+  }
+  .vertical__line-left {
+    background-color: red;
+    padding: 5px;
+    width: 2px;
+    height: 400px;
+    border-radius: 10px;
+    position: absolute;
+    top: 228px;
+    left: 578px;
+  }
+  .vertical__line-right {
+    background-color: red;
+    padding: 5px;
+    width: 2px;
+    height: 400px;
+    border-radius: 10px;
+    position: absolute;
+    top: 228px;
+    left: 692px;
+  }
+}
+@media screen and (min-width: 1200px) {
+}
